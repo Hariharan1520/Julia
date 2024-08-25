@@ -10,8 +10,13 @@ s4="I'm Hari";
 # String concatenation using '$'
 s5=($s3$s4);
 println(s5)
-s6="How are you";
+s6="I'm 20 years old ";
 
 # String concatenation using ','
 s7=s5,s6;
 println(s7)
+s8="I'm a ML Engineer";
+
+# String concatenation using string function
+s9=string(s7,s8);
+println(s9)
