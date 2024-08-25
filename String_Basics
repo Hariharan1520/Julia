@@ -1,0 +1,17 @@
+# String Declaration
+s1="Hello!";
+s2="Good Morning";
+
+# Stringconcatenation using '*'
+s3=s1*s2;
+println(s3)
+s4="I'm Hari";
+
+# String concatenation using '$'
+s5=($s3$s4);
+println(s5)
+s6="How are you";
+
+# String concatenation using ','
+s7=s5,s6;
+println(s7)
